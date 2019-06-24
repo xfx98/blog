@@ -7,6 +7,7 @@ tags:
 categories:
  - github
 ---
+
 ##  一、配置GitHub
 
  1. 注册GitHub
@@ -22,6 +23,7 @@ categories:
 3. 设置仓库
 进入到设置页面找到`GitHubpage`选项，选择`master branch` ，然后任意选择一个主题，确认修改即可
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190620093212900.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwODI3Nzgw,size_16,color_FFFFFF,t_70)![GitHub page](https://img-blog.csdnimg.cn/20190620093155319.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwODI3Nzgw,size_16,color_FFFFFF,t_70)
+
 ## 二、环境安装（node.js Git）
  1. 安装 Node.js
 安装Node
@@ -40,6 +42,7 @@ cmd下执行`node -v`查看是否执行成功
 生成静态页面`hexo g`
 本地启动启动本地服务，进行文章预览调试，命令：`hexo s` 也可修改端口改为执行命令`hexo s -p portnum`将portnum替换为自己想要的端口就行了。
 浏览器输入`http://localhost:4000`就能看到hexo的初始页面啦。
+
 ## 三、配置博客
 将以下三个选项配置好信息配置好 将`username`全部改为注册时的username，其它的可以做自定义修改
 ```yml
@@ -67,6 +70,7 @@ deploy:
 ```
 这里安装git部署工具执行`install -- save hexo-deployer-git`
 然后执行`hexo g` `hexo d` 等待结束便可以通过`username.github.io`访问博客了。
+
 ## 四、设置皮肤
 这里有我的博客的一款皮肤示例 [xfx98.github.io](https://xfx98.github.io)
 如果看中可以直接带走，[hexo-theme-matery](https://github.com/blinkfox/hexo-theme-matery)
@@ -84,6 +88,7 @@ theme: matery
  3. 执行`hexo s`访问`http://localhost:4040`查看是否使用成功
 
   然后就是一些主题的配置啦，next有三种主题，可以选择自己喜欢的一种。
+
 ## 一些常用命令
 `hexo new"postName"` #新建文章
 `hexo new page"pageName"` #新建页面
