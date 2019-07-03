@@ -1,10 +1,11 @@
 ---
 title: hibernate更新数据后，未能查询时不能立即获得问题
-date: 2019-06-18 21:57:39
+date: 2019-05-22 21:57:39
 tags:
  - hibernate
  - 缓存
  - 连接池
+ - web
 categories:
  - hibernate
 ---

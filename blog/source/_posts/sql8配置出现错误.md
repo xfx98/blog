@@ -1,6 +1,6 @@
 ---
 title: sql8配置出现错误
-date: 2019-06-18 21:45:36
+date: 2019-05-24 21:45:36
 tags:
  - hibernate
  - MySQL8

@@ -1,11 +1,10 @@
 ﻿---
-title: 使用git提交项目到GitHub
-date: 2019-7-1 16:43:17
+title: '使用git提交项目到GitHub'
+date: 2019-06-24 16:43:17
 tags:
  - Git
 categories:
  - Git
-
 ---
 ## 一、执行将GitHub文件加载到本地
 执行`git clone repositoryURL`repositoryURL如下图中的url (大家别拿我的实验哈</卑微>)

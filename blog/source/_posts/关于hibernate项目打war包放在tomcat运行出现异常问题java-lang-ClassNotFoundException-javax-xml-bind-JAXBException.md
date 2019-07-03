@@ -1,7 +1,7 @@
 ---
 title: >-
   关于hibernate项目打war包放在tomcat运行出现异常问题
-date: 2019-06-18 21:59:57
+date: 2019-05-22 21:59:57
 tags:
  - hibernate
  - web
