@@ -20,6 +20,6 @@ categories:
 [jaxb-impl-2.3.0.jar ](http://search.maven.org/remotecontent?filepath=com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-impl-2.3.0.jar)
 
 同样还可以通过修改tomcat的java运行版本解决
-![tomcat java运行环境配置](https://img-blog.csdnimg.cn/20190522193108882.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwODI3Nzgw,size_16,color_FFFFFF,t_70)
+![tomcat java运行环境配置](https://xfx98.github.io/ms/img/tomcat-setting.png)
 
 将jvm配置为1.8便可成功。这里在图形界面更改，也可以在配置文件中修改。

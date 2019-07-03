@@ -9,7 +9,7 @@ categories:
 ---
 ## 一、执行将GitHub文件加载到本地
 执行`git clone repositoryURL`repositoryURL如下图中的url (大家别拿我的实验哈</卑微>)
-![git仓库地址](https://img-blog.csdnimg.cn/20190623192124993.png)
+![git仓库地址](https://xfx98.github.io/ms/img/repository-link.png)
 
 ## 二、添加提交信息
 执行`git add .`或者将`.`改成需要添加的文件
