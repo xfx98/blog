@@ -1,5 +1,5 @@
 ﻿---
-title: 'Codeforces Round #573 Tokitsukaze, CSL and Stone Game'
+title: 'Codeforces Round #573 Tokitsukaze and Discard Items'
 date: 2019-07-13 14:29:27
 tags: 
  - 模拟
