@@ -1,19 +1,19 @@
 [{
     "avatar": "https://xfx98.github.io/ms/img/avatartm.png",
     "name": "xfx",
-    "introduction": "一个底层acmer，java开发者，努力学习ing",
+    "introduction": "一个底层ACMer，Java程序员，努力学习ing",
     "url": "https://xfx98.github.io/",
     "title": "前去学习"
 },{
     "avatar": "http://image.luokangyuan.com/4027734.jpeg",
     "name": "闪烁之狐",
-    "introduction": "编程界大佬，技术牛，人还特别好，不懂的都可以请教大佬",
+    "introduction": "编程界大佬，技术牛，不懂的都可以请教大佬",
     "url": "https://blinkfox.github.io/",
     "title": "前去学习"
 },{
     "avatar": "https://mfdy.tech/images/avatar.bmp",
-    "name": "mfdy",
-    "introduction": "",
-    "url": "mfdy.tech",
+    "name": "MFDY",
+    "introduction": "同ACMer,C++程序员，郑州大学学生",
+    "url": "https://mfdy.tech",
     "title": "前去学习"
 }]
