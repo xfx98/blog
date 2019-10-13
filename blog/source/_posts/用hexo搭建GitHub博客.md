@@ -22,7 +22,7 @@ categories:
 
 3. 设置仓库
 进入到设置页面找到`GitHubpage`选项，选择`master branch` ，然后任意选择一个主题，确认修改即可
-![开启GitHub page](https://xfx98.github.io/ms/gtihubpage-open.png)
+![开启GitHub page](https://xfx98.github.io/img/ms/gtihubpage-open.png)
 
 ## 二、环境安装（node.js Git）
  1. 安装 Node.js
