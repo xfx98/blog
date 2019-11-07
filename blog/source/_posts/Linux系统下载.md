@@ -205,10 +205,6 @@ http://hkg.mirror.rackspace.com
 
 
 ## 4、分类镜像服务器
-RedHat Enterprise Linux 红帽Linux镜像站点（主要是RHEL资源）：
-http://eduunix.ccut.edu.cn/index2/unixsystem/RedHat/
-http://www.mmnt.net/db/0/0/volt.iem.pw.edu.pl/pub/Linux/RedHat
-http://ftp.corbina.net/pub/Linux/redhat/
 
 首都在线科技股份有限公司（英文名Capital Online Data Service）：
 http://mirrors.yun-idc.com/
