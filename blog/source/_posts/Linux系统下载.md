@@ -27,7 +27,6 @@ https://admin.fedoraproject.org/mirrormanager/mirrors
 Debian 全球镜像站：
 http://www.debian.org/mirror/
 https://cdimage.debian.org/cdimage/archive/
-http://mirror.debian.org/status.html
 
 Ubuntu 官方镜像站：
 http://releases.ubuntu.com/releases/
@@ -62,20 +61,11 @@ http://mirrors.163.com/
 搜狐开源镜像站：
 http://mirrors.sohu.com/
 
-天翼云：
-http://mirrors.ctyun.cn/
-
 首都在线科技股份有限公司：
 http://mirrors.yun-idc.com/
 
 中国互联网信息中心: 
 http://mirrors.cnnic.cn (Apache镜像)
-
-淘宝: 
-http://ruby.taobao.org/ (RubyGems 镜像)
-
-开源中国：
-http://mirrors.oschina.net/
 
 阿里云开源镜像：
 http://mirrors.aliyun.com/
@@ -205,6 +195,10 @@ http://hkg.mirror.rackspace.com
 
 
 ## 4、分类镜像服务器
+RedHat Enterprise Linux 红帽Linux镜像站点（主要是RHEL资源）：
+http://eduunix.ccut.edu.cn/index2/unixsystem/RedHat/
+http://www.mmnt.net/db/0/0/volt.iem.pw.edu.pl/pub/Linux/RedHat
+http://ftp.corbina.net/pub/Linux/redhat/
 
 首都在线科技股份有限公司（英文名Capital Online Data Service）：
 http://mirrors.yun-idc.com/
@@ -273,4 +267,5 @@ http://ftp.kddilabs.jp/
  http://ftp.estpak.ee/pub/
 
 ## 持续更新ing
+以上部分需要翻墙，还有部分链接可能失效，如遇到还请告知。
 emmm都是从各个地方收集来的，我也不知道谁的2333，如有侵权，请告知

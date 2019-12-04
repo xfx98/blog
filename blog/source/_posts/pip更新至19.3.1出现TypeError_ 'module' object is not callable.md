@@ -21,7 +21,7 @@ TypeError: 'module' object is not callable
 
 我估计是19.3.1的pip版本问题，移除了直接能用`pip`命令功能，现在使用pip命令需要把pip前加上`python -m` 之后就能写`pip`命令了，搞不懂官方为啥要这样（手动狗头）
 <hr/>
-楼下一哥们说，是安装错误导致的，emmm观察了一下，发现我这里缺了
+有人说，是安装错误导致的，emmm观察了一下，发现我这里缺了
 
 `pip-inscript.py` 文件，执行了
 
