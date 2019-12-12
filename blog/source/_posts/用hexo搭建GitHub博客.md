@@ -69,6 +69,12 @@ deploy:
   branch: master
 ```
 这里安装git部署工具执行`install -- save hexo-deployer-git`
+
+第一次提交会要求设置邮箱和用户名，设置自己注册的就行了，之后还会提示要求输入用户密码，按要求输入。
+```
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+```
 然后执行`hexo g` `hexo d` 等待结束便可以通过`username.github.io`访问博客了。
 
 ## 四、设置皮肤
