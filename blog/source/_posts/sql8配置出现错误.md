@@ -1,4 +1,4 @@
----
+﻿---
 title: sql8配置出现错误
 date: 2019-05-24 21:45:36
 tags:
@@ -8,13 +8,15 @@ categories:
  - hibernate
  - JDBC
 ---
-使用mysql 8的时候出现 org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution错误
+使用MySQL8的时候出现 org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution错误。
 配置文件出现了问题，与mysql 5的配置文化出现了不同
-首先驱动要下载 [mysql-connector-java-8.0.16.jar](https://download.csdn.net/download/qq_40827780/11200742) 点击可直接下载，官网也可以找到
-然后以下两项配置项出现区别，其中 url 的 serverTimezone=Asia/Shanghai不可少，否则会报错，而5.7以下则不需要。这是设置时区，可以更改为其它时区，zheli是GMT+8上海时。
+首先驱动要下载 [mysql-connector-java-8.0.16.jar](https://download.csdn.net/download/qq_40827780/11200742) 点击可直接下载，[官网下载](https://dev.mysql.com/doc/index-connectors.html)也可以找到。
+然后以下三项配置项出现区别，驱动包，方言和URL，驱动的包名有所变化，其中 url 的 serverTimezone=Asia/Shanghai不可少，这是MySQL8新增要求，否则会报错，而5.7以下则不需要。这是设置时区，可以更改为其它时区，这里是GMT+8上海时。
+这里使用的hibernate框架的配置，如果不用则需要一定的修改。但和MySQL5配置方面应该就有如下三个区别。
 ```xml
 <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/blog?useUnicode=true&amp;serverTimezone=Asia/Shanghai&amp;characterEncoding=UTF-8&amp;useSSL=false</property>
-<property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
+<property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
+<property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver </property>
 ```
 
 
@@ -31,9 +33,9 @@ categories:
 		<property name="hibernate.hbm2ddl.auto">update</property>
 		<!-- mysql 5请改配置为  com.mysql.jdbc.Driver -->
 		<property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver </property>
-		<!--设置数据库的连接jdbc:mysql://localhost:3306/dbname?useUnicode=true&amp;serverTimezone=GMT&amp;characterEncoding=UTF-8&amp;useSSL=false,其中localhost表示mysql服务器名称，此处为本机，dbname是数据库名 若serverTimezone=GMT不写则会报错-->
+		<!--设置数据库的连接jdbc:mysql://localhost:3306/dbname?useUnicode=true&amp;serverTimezone=Asia/Shanghai&amp;characterEncoding=UTF-8&amp;useSSL=false,其中localhost表示mysql服务器名称，此处为本机，dbname是数据库名 若serverTimezone=Asia/Shanghai不写则会报错-->
 			
-		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/blog?useUnicode=true&amp;serverTimezone=GMT&amp;characterEncoding=UTF-8&amp;useSSL=false</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/blog?useUnicode=true&amp;serverTimezone=Asia/Shanghai&amp;characterEncoding=UTF-8&amp;useSSL=false</property>
 		<!--连接数据库是用户名 -->
 		<property name="hibernate.connection.username">root </property>
 		<!--连接数据库是密码 -->
@@ -42,7 +44,7 @@ categories:
 		<!--hibernate.dialect 只是Hibernate使用的数据库方言,就是要用Hibernate连接那种类型的数据库服务器。 -->
 		
 		<!--mysql 5请改配置为 org.hibernate.dialect.MySQL5Dialect </property> -->
-		<property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
 		
 		<!-- jdbc.use_scrollable_resultset是否允许Hibernate用JDBC的可滚动的结果集。对分页的结果集。对分页时的设置非常有帮助 
 			<property name="jdbc.use_scrollable_resultset">false </property> -->
