@@ -22,6 +22,7 @@ categories:
 ```
 这样需要找出全部符合的，取最小值了。。。
 AC代码java版
+
 ```java
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
@@ -40,7 +41,6 @@ public class Main {
 	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	static PrintWriter pr = new PrintWriter(new BufferedOutputStream(System.out));
 	static Scanner sc = new Scanner(System.in);
- 
 	public static void main(String[] args) {
 //		long tic = System.currentTimeMillis();
 		int n = sc.nextInt();
@@ -58,7 +58,7 @@ public class Main {
 		int te = 2000000000;
 		//2100
 		//2110
-        int ans = te;
+        		int ans = te;
 		for(int i = 0;i<n;i++) {
 			te = (aa[i]-ab[0]+m)%m;
 			boolean flag = true;
@@ -71,7 +71,7 @@ public class Main {
 			if(flag) {
 				boolean test = true;
                 
-                te = Math.min(te,m-te);
+                	te = Math.min(te,m-te);
 				for(int k = 0;k<n;k++) {
 					if((aa[(i+k)%n]+te)%m!=ab[k]) {
 						test = false;
