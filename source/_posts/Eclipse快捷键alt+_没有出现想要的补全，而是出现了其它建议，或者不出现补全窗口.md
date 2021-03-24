@@ -11,5 +11,4 @@ categories:
 下面的在 alt+/ 后重复按得话会变成另外建议选项，可根据需要修改。
 
 如果alt+/是没反应的话，则应该查看是否快捷键冲突，或者eclipse的这个快捷键没有打开。在General->keys中查看。
-
-![eclipse设置](https://xfx98.github.io/ms/img/eclipse-setpeoposals.png)
+![eclipse设置](https://raw.githubusercontent.com/xfx98/ms/master/img/eclipse-setpeoposals.png)

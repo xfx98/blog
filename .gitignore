@@ -5,3 +5,4 @@ public/
 # db.json
 # *.log
 # node_modules/
+/.idea/
