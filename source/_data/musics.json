@@ -1,31 +1,50 @@
-[{
-	"name": "可惜没如果",
-	"artist": "林俊杰",
-	"url": "https://xfx98.github.io/ms/music/kxmrg_ljj.m4a",
-	"cover": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001IV22P1RDX7p.jpg?max_age=2592000"
-}, {
-	"name": "你的答案",
-	"artist": "阿冗",
-	"url": "https://xfx98.github.io/ms/music/nidedaan_achen.m4a",
-	"cover": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001ag9vZ3zT8OM.jpg?max_age=2592000"
-}, {
-	"name": "有人",
-	"artist": "赵珂",
-	"url": "https://xfx98.github.io/ms/music/youren_zhaoke.m4a",
-	"cover": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000PD1Yy0vXwNm.jpg?max_age=2592000"
-}, {
-	"name": "句号",
-	"artist": "邓紫棋",
-	"url": "https://xfx98.github.io/ms/music/jvhao_dengziqi.m4a",
-	"cover": "https://y.gtimg.cn/music/photo_new/T002R300x300M0000049MVh824D7bM.jpg?max_age=2592000"
-}, {
-	"name": "Hangover (Explicit)",
-	"artist": "Taio Cruz / Flo Rida",
-	"url": "https://xfx98.github.io/ms/music/Hangover.m4a",
-	"cover": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002uLVtY0K47Xi.jpg?max_age=2592000"
-}, {
-	"name": "绿色",
-	"artist": "陈雪凝",
-	"url": "https://xfx98.github.io/ms/music/ls_cnx.m4a",
-	"cover": "https://y.gtimg.cn/music/photo_new/T002R300x300M0000010UePb4dyfoi.jpg"
-}]
+[
+  {
+    "name": "可惜没如果",
+    "artist": "林俊杰",
+    "url": "https://xfx98.github.io/ms/music/kxmrg_ljj.m4a",
+    "cover": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001IV22P1RDX7p.jpg?max_age=2592000"
+  },
+  {
+    "name": "清空",
+    "artist": "王忻辰/苏星婕",
+    "url": "https://xfx98.github.io/ms/music/qk_wxc.m4a",
+    "cover": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001L99pg0s70sp.jpg?max_age=2592000"
+  },
+  {
+    "name": "迷失幻境",
+    "artist": "IN-K/王忻辰",
+    "url": "https://xfx98.github.io/ms/music/mshj_ink_wxc.m4a",
+    "cover": "//y.gtimg.cn/music/photo_new/T002R300x300M000003YQu7349cT7g_3.jpg?max_age=2592000"
+  },
+  {
+    "name": "你的答案",
+    "artist": "阿冗",
+    "url": "https://xfx98.github.io/ms/music/nidedaan_achen.m4a",
+    "cover": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001ag9vZ3zT8OM.jpg?max_age=2592000"
+  },
+  {
+    "name": "有人",
+    "artist": "赵珂",
+    "url": "https://xfx98.github.io/ms/music/youren_zhaoke.m4a",
+    "cover": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000PD1Yy0vXwNm.jpg?max_age=2592000"
+  },
+  {
+    "name": "句号",
+    "artist": "邓紫棋",
+    "url": "https://xfx98.github.io/ms/music/jvhao_dengziqi.m4a",
+    "cover": "https://y.gtimg.cn/music/photo_new/T002R300x300M0000049MVh824D7bM.jpg?max_age=2592000"
+  },
+  {
+    "name": "Hangover (Explicit)",
+    "artist": "Taio Cruz / Flo Rida",
+    "url": "https://xfx98.github.io/ms/music/Hangover.m4a",
+    "cover": "https://y.gtimg.cn/music/photo_new/T002R300x300M000002uLVtY0K47Xi.jpg?max_age=2592000"
+  },
+  {
+    "name": "绿色",
+    "artist": "陈雪凝",
+    "url": "https://xfx98.github.io/ms/music/ls_cnx.m4a",
+    "cover": "https://y.gtimg.cn/music/photo_new/T002R300x300M0000010UePb4dyfoi.jpg"
+  }
+]
