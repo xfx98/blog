@@ -16,13 +16,13 @@ categories:
 
  2. 创建仓库
 点击`Create a new repository`
-![new repository](https://raw.githubusercontent.com/xfx98/ms/img/new-repository-page.png)
+![new repository](https://raw.githubusercontent.com/xfx98/ms/master/img/new-repository-page.png)
 `reposository name`填写 `username.github.io`这个是固定的，`usename`是注册时的用户名，否则则无法以 `username.github.io` 访问博客
-![设置仓库](https://raw.githubusercontent.com/xfx98/ms/img/settings-repository.png)
+![设置仓库](https://raw.githubusercontent.com/xfx98/ms/master/img/settings-repository.png)
 
 3. 设置仓库
 进入到设置页面找到`GitHubpage`选项，选择`master branch` ，然后任意选择一个主题，确认修改即可
-![开启GitHub page](https://raw.githubusercontent.com/xfx98/img/ms/gtihubpage-open.png)
+![开启GitHub page](https://xfx98.github.io/img/ms/gtihubpage-open.png)
 
 ## 二、环境安装（node.js Git）
  1. 安装 Node.js
@@ -36,7 +36,7 @@ cmd下执行`node -v`查看是否执行成功
 3. 安装Hexo
 执行如下命令安装Hexo`npm install -g hexo`
 执行 `hexo -v` 查看版本信息，看是否安装成功
-![正确安装](https://raw.githubusercontent.com/xfx98/ms/img/hexo-version.png)
+![正确安装](https://raw.githubusercontent.com/xfx98/ms/master/img/hexo-version.png)
 执行init命令初始化hexo,命令：`hexo init`
 至此，全部安装工作已经完成！blog就是你的博客根目录，所有的操作都在里面进行。
 生成静态页面`hexo g`
