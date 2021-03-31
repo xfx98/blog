@@ -1,5 +1,5 @@
 ---
-title: 用hexo搭建GitHub博客
+title: 用hexo搭建GitHub博客+图床
 date: 2019-06-20 10:30:52
 tags:
  - GitHub
@@ -7,6 +7,14 @@ tags:
 categories:
  - github
 ---
+
+## 图床
+图床同样可以使用github只需要上传图片到仓库，然后通过`https://raw.githubusercontent.com/xfx98/仓库名/分支名/文件路径名` 的方式访问图片如[https://raw.githubusercontent.com/xfx98/ms/master/img/typora-icon.png](https://raw.githubusercontent.com/xfx98/ms/master/img/typora-icon.png) 就是我仓库的图片。
+通过Typora配置图片上传来编辑md文件能够实现类似博客系统的自动上传，
+通过安装 [PicGO](https://picgo.github.io/PicGo-Doc/zh/guide/#%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85) 就可以。
+然后配置github图床，这里需要配置成自己仓库，没有token是无法进行各种操作的。 ![github图床设置](https://raw.githubusercontent.com/xfx98/ms/master/img/image-20210331101417219.png)
+获取token,在github里点击setting，进入 Developer settings点击Generate new token给上全部权限或者自己选择相应的写入读取权限就可以了
+ ![github获取token](https://raw.githubusercontent.com/xfx98/ms/master/img/image-20210331101629017.png)
 
 ##  一、配置GitHub
 
