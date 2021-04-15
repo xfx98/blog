@@ -40,7 +40,7 @@ categories:
 cmd下执行`node -v`查看是否执行成功
  2. 安装Git
 作用：把本地的hexo内容提交到github上去.
-安装Xcode就自带有Git，我就不多说了。
+下载安装 [Git](http://git-scm.com/downloads) 。
 3. 安装Hexo
 执行如下命令安装Hexo`npm install -g hexo`
 执行 `hexo -v` 查看版本信息，看是否安装成功
