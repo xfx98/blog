@@ -311,6 +311,8 @@ libs:
     gitalk: /libs/gitalk/gitalk.css
     jqcloud: /libs/jqcloud/jqcloud.css
     tocbot: /libs/tocbot/tocbot.css
+#    看板娘css链接
+    kanban: https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css
   js:
     jquery: /libs/jquery/jquery-2.2.0.min.js
     materialize: /libs/materialize/materialize.min.js # 1.0.0
@@ -327,6 +329,8 @@ libs:
     gitalk: /libs/gitalk/gitalk.min.js
     jqcloud: /libs/jqcloud/jqcloud-1.0.4.min.js
     tocbot: /libs/tocbot/tocbot.min.js
+#    看板娘js链接
+    kanban: https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js
 
 # The post featured images that needs to be displayed when there is no image.
 # 无文章特色图片时需要显示的文章特色图片.
