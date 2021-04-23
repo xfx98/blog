@@ -330,7 +330,7 @@ libs:
     jqcloud: /libs/jqcloud/jqcloud-1.0.4.min.js
     tocbot: /libs/tocbot/tocbot.min.js
 #    看板娘js链接
-    kanban: https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js
+    kanban: https://cdn.jsdelivr.net/gh/xfx98/live2d-widget@latest/autoload.js
 
 # The post featured images that needs to be displayed when there is no image.
 # 无文章特色图片时需要显示的文章特色图片.

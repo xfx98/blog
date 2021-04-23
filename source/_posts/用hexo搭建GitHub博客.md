@@ -1,9 +1,11 @@
 ---
-title: 用hexo搭建GitHub博客+图床 date: 2019-06-20 10:30:52 tags:
-
-- GitHub
-- hexo categories:
-- github
+title: 用hexo搭建GitHub博客+图床 
+date: 2019-06-20 10:30:52 
+tags:
+ - GitHub
+ - hexo 
+categories:
+ - github
 
 ---
 
@@ -30,6 +32,13 @@ settings点击Generate new token给上全部权限或者自己选择相应的写
 
 3. 设置仓库 进入到设置页面找到`GitHubpage`选项，选择`master branch` ，然后任意选择一个主题，确认修改即可
    ![开启GitHub page](https://raw.githubusercontent.com/xfx98/ms/master/img/gtihubpage-open.png)
+
+## CND加速
+使用链接
+>https://cdn.jsdelivr.net/gh/用户名/仓库名@版本号/文件名
+
+例如
+>https://cdn.jsdelivr.net/gh/xfx98/live2d-widget@latest/autoload.js
 
 ## 二、环境安装（node.js Git）
 
